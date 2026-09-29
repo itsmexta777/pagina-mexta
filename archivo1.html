@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura con Columnas - Servicios</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #03a1bd;
+            padding: 10px 20px;
+        }
+
+        .logo-pequeno {
+            width: 300px;
+            height: auto;
+            display: block;
+        }
+
+        .barra-navegacion {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: #333333;
+            background-color: #69eeff;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton-nav.activo {
+            background-color: #ff0909;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .boton-nav:hover {
+            background-color: rgb(245, 148, 1);
+            color: white;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 25%;
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+
+        .imagen-publicidad {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .imagen-articulo {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            width: 75%;
+            background-color: #e0f7fa;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 style="margin: 0;">mis gustos</h1>
+            <nav class="barra-navegacion">
+                <a href="mexta.html" class="boton-nav">Inicio</a>
+                <a href="archivo1.html" class="boton-nav activo">sobre mi </a>
+                <a href="archivo2.html" class="boton-nav">mi mundo</a>
+            </nav>
+        </div>
+        <img src="masmio.jpg" alt="Logo de Mi Sitio Web" title="Logo de la marca" class="logo-pequeno">
+    </header>
+
+    <main>
+        <aside>
+            <h3>Publicidad</h3>
+            <p>¡Prueba crumbolll cookies tu mejor aliado!</p>
+            <img src="publicidad.jpg" alt="Publicidad de Cookies" class="imagen-publicidad">
+        </aside>
+        <section>
+            <article>
+                <h2>mis gustos</h2>
+                <img src="mk.jpg" alt="Los ksimeritos" class="imagen-articulo">
+                <p>Mis gustos son muchos y hobbies son pocos lo que me gusta mas.</p>
+                <p>mis gustos son  comer aguachile y comer aguachile muchos tienen muchos hobbies peroyo solo tengo uno </p>
+                <p>que es maquillarme megusta mucho maquillar y cosas de belleza , pintar cabello etc</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>redes sociales ____bykenia</p>
+    </footer>
+</body>
+
+</html>
